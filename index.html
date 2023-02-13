@@ -1,0 +1,184 @@
+<!-- Portafolio personal
+-	Nombre
+-	Imagen
+-	Breve biografía
+-	Datos curiosos
+-	Enlace a redes sociales. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karen Medina Silva</title>
+
+    <!-- Links para fuentes de google -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600&display=swap" rel="stylesheet">
+
+    <!-- Links para  estilos-->
+    <link rel="stylesheet" href="./styles/style.css">
+    
+</head>
+<body>
+    
+    <div class="header">
+        <h1 id="title-1">Sobre mí</h1>
+        <img src="/Public/images/img.png" alt="Foto de Karen" style="width: 15%; float: left; margin: 8px;">
+
+        <p id="p1"> Mi nombre es Karen Medina Silva, tengo 29 años, nací en Ciudad de México y estudié Ingeniería Geofísica.
+        </p>
+
+        
+    
+
+        <p id="p2">
+            Interesada en crear una sinergia entre las ciencias de la tierra y la programación.Soy una persona tranquila, amable, responsable y con muchas ganas de aprender cosas nuevas. 
+        </p>
+    </div>
+
+    <div class="header2">
+
+        <h2 id="title-2">Mi formación</h2>
+
+
+        <div class="container">
+            <table>
+                
+                
+    
+                <tr>
+                    <td>Generation México</td>
+                    <td>    </td>
+                    <td>Actualmente estoy cursando el programa Java Full Stack Developer.</td>
+                </tr>
+                <tr>
+                    <td>Pilares,  CDMX</td>
+                    <td>    </td>
+                    <td> Participé en el programa Escuela de Código cursando programación con Java y posteriormente con Python.</td>
+                </tr>
+
+                <tr>
+                    <td>Facultad de Ingeniería, UNAM</td>
+                    <td></td>
+                    <td> Egresada de la carrera de Ingeniería Geofísica.</td>
+                </tr>
+
+
+            </table>
+        </div>
+    
+    </div>
+    <div class="images">
+
+        <img src="/Public/images/generation.png" alt="Logo de Generation" style="width: 18%; float: left; margin: 20px;">
+
+        <img src="/Public/images/PILARES.png" alt="Logo Pilares" style="width: 18%; float: inline-start;">
+
+        <img src="/Public/images/escudoFI.jpg" alt="Logo de la Facultad de Ingenieria" style="width: 9%; float: right; ">
+
+        
+        
+    </div>
+
+    <div class="sticky">
+        <p>
+            Correo de contacto:
+            k.medinasilva1234@gmail.com
+        </p>
+    </div>
+   
+
+    
+
+    <div>
+        <p>
+            Para saber mi comida favorita da click en el sobre.
+        </p>
+        <a class="sticky" href="mailto:zabdiel.diaz@idr.edu.mx?subject=Mi%20Comida%20Favorita&body=Chilaquiles verdes"><img src="/Public/icons/mail.png" alt="Enviar correo" style="width: 100px;"></a>
+    </div>
+
+    <div class="header3">
+        <h3 id="title-3">Tengo conocimientos sobre:</h3>
+        <img src="/Public/images/programming-illustration.webp" alt="" style="float: right;">
+
+        <ul id="ulist">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>SQL</li>
+           
+        </ul>
+    </div>
+    <br><br><br><br>
+
+    <div>
+        <p style="font-size: 1.3em;">Para ponerme en contacto con usted deje sus datos y un mensaje sobre su solicitud.</p>
+        <form>
+            <label for="nombreapellido"> Nombre y Apellido</label>
+            <input type="text" id="nombreapellido" class="input-padron" required>
+
+            <label for="correoelectronico"> Correo electrónico</label>
+            <input type="email" id="correoelectronico" class="input-padron" required placeholder="email@dominio.com">
+
+            <label for="telefono"> Teléfono</label>
+            <input type="tel" id="telefono" class="input-padron" required placeholder="(XX) XXXX XXXX">
+
+            <label for="mensaje">Mensaje</label>
+            <textarea cols="70" rows="10" id="mensaje" class="input-padron" required></textarea>
+        
+            <fieldset>
+                <legend class="test"  id="test">¿Como le gustaría ser contactado?</legend>
+
+                <label for="radio-email"><input type="radio"  name="contacto" value="email" id="radio-email"> E-mail</label>
+                
+    
+                <label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+                
+    
+                <label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp" checked> Whatsaap</label>
+                
+        
+            </fieldset>
+
+            <fieldset>
+                <legend>¿En que horario puedes atenderme?</legend>
+                <select>
+                    <option >Mañana</option>
+                    <option >Tarde</option>
+                    <option >Noche</option>
+                </select>
+            </fieldset>
+            <label class="checkbox"><input type="checkbox" checked>¿Le gustaría recibir una notificación de recibido?</label>
+        
+
+
+            <input type="submit" value="Enviar formulario" class="enviar">
+
+
+        </form> 
+
+    </div>
+
+
+    <div>
+        
+        <a href="https://github.com/MedinaSilva" target="_blank"><img src="/Public/icons/github.png" alt="github" style="width: 50px;"></a>
+
+        <a href="https://www.linkedin.com/in/karen-medina-silva-/" target="_blank"><img src="/Public/icons/linkedin.png" alt="linkedin" style="width: 50px;"></a>
+    </div>
+
+    <!-- <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/5fvsTDpEEQNSHYsnl9olLS?utm_source=generator" width="50%" height="352" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy">
+    </iframe> -->
+
+    
+
+    
+
+</body>
+</html>
